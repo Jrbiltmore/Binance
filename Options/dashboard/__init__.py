@@ -11,6 +11,9 @@ Modules:
     - watchlist: Managing watchlists for tracking multiple trading symbols.
     - real_time_data: Fetching and displaying real-time market data.
     - trade_visualization: Visualizing trading activity and performance.
+    - plugin_manager: Managing dashboard plugins.
+    - authentication: Handling user authentication.
+    - profile: Managing user profiles.
 """
 
 # Import necessary modules for dashboard functionalities
@@ -19,3 +22,6 @@ from .portfolio_management import PortfolioManagement
 from .watchlist import Watchlist
 from .real_time_data import RealTimeData
 from .trade_visualization import TradeVisualization
+from .plugin_manager import PluginManager
+from .authentication import Authentication
+from .profile import UserProfile
